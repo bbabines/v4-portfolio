@@ -29,7 +29,7 @@ const Navbar = () => {
 					/>
 					<p className="text-white text-[18px] font-bolt cursor-pointer flex">
 						Brad Babines &nbsp;
-						<span className="sm:block hidden">| React Dev</span>
+						<span className="sm:block hidden">| Frontend Developer</span>
 					</p>
 				</Link>
 				<ul className="list-none hidden sm:flex flex-row gap-10">
