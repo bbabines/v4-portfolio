@@ -1,9 +1,13 @@
-import React from 'react'
+// import React from "react";
 
-const Feedbacks = () => {
-  return (
-    <div>Feedbacks</div>
-  )
-}
+// import { SectionWrapper } from "../hoc";
+// import { textVariant, fadeIn } from "../utils/motion";
+// import { styles } from "../styles";
 
-export default Feedbacks
+// import { testimonials } from "../constants";
+
+// const Feedbacks = () => {
+// 	return <div>Feedbacks</div>;
+// };
+
+// export default SectionWrapper(Feedbacks, "");
