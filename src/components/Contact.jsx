@@ -13,8 +13,41 @@ const Contact = () => {
 	const [form, setForm] = useState({ name: "", email: "", message: "" });
 	const [loading, setLoading] = useState(false);
 
-	const handleChange = (event) => {};
-	const handleSubmit = (event) => {};
+	const handleChange = (event) => {
+		const { name, value } = event.target;
+
+		setForm({ ...form, [name]: value });
+	};
+
+	const handleSubmit = (event) => {
+		event.preventDefault();
+		setLoading(true);
+		emailjs
+			.send(
+				"service_fx1xixp",
+				"template_8gbmr6p",
+				{
+					from_name: form.name,
+					to_name: "Brad",
+					from_email: form.email,
+					to_email: "bbabines@gmail.com",
+					message: form.message,
+				},
+				"TrfgEA8anlYYaPp71"
+			)
+			.then(() => {
+				setLoading(false);
+				alert("Thank you. I will get back to you as soon as possible");
+				setForm({ name: "", email: "", message: "" }),
+					(error) => {
+						setLoading(false);
+
+						console.log(error);
+
+						alert("Oops, something went wrong. Try again.");
+					};
+			});
+	};
 
 	return (
 		<>
