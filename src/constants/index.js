@@ -233,28 +233,28 @@ const testimonials = [
 ];
 
 const projects = [
-	{
-		name: "Pro Management",
-		description:
-			"A full-stack MERN (MongoDB, Express, React, Node) dashboard app with authentication, pagination, sorting, filtering, and more!",
-		tags: [
-			{
-				name: "react",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "material-ui",
-				color: "green-text-gradient",
-			},
-			{
-				name: "typescript",
-				color: "pink-text-gradient",
-			},
-		],
-		image: pro,
-		source_code_link: "https://github.com/bbabines/pro-dashboard",
-		live_demo_link: "https://ikon-clothing.netlify.app/",
-	},
+	// {
+	// 	name: "Pro Management",
+	// 	description:
+	// 		"A full-stack MERN (MongoDB, Express, React, Node) dashboard app with authentication, pagination, sorting, filtering, and more!",
+	// 	tags: [
+	// 		{
+	// 			name: "react",
+	// 			color: "blue-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "material-ui",
+	// 			color: "green-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "typescript",
+	// 			color: "pink-text-gradient",
+	// 		},
+	// 	],
+	// 	image: pro,
+	// 	source_code_link: "https://github.com/bbabines/pro-dashboard",
+	// 	live_demo_link: "https://ikon-clothing.netlify.app/",
+	// },
 	{
 		name: "Ikon Clothing",
 		description:
@@ -306,6 +306,10 @@ const projects = [
 			"A large freelance project for a startup to build an MVP for their crypto call channel SPA. The project is currently on-going.",
 
 		tags: [
+			{
+				name: "FREELANCE",
+				color: "orange-text-gradient",
+			},
 			{
 				name: "react",
 				color: "blue-text-gradient",
