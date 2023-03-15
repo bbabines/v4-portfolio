@@ -48,6 +48,7 @@ import metaverse from "./metaverse.png";
 import kubera from "./kubera.png";
 import jake from "./jake.png";
 import spline from "./spline.png";
+import pro from "./pro.png";
 
 export {
 	logo,
@@ -96,4 +97,5 @@ export {
 	kubera,
 	jake,
 	spline,
+	pro,
 };

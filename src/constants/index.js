@@ -12,7 +12,6 @@ import {
 	mongodb,
 	git,
 	figma,
-	tripguide,
 	threejs,
 	vscode,
 	framermotion,
@@ -32,6 +31,7 @@ import {
 	kubera,
 	jake,
 	spline,
+	pro,
 } from "../assets";
 
 export const navLinks = [
@@ -251,7 +251,7 @@ const projects = [
 				color: "pink-text-gradient",
 			},
 		],
-		image: tripguide,
+		image: pro,
 		source_code_link: "https://github.com/",
 	},
 	{
