@@ -273,7 +273,8 @@ const projects = [
 			},
 		],
 		image: brads,
-		source_code_link: "https://github.com/",
+		source_code_link: "https://github.com/bbabines/brads-clothing",
+		live_demo_link: "https://ikon-clothing.netlify.app/",
 	},
 
 	{
@@ -295,7 +296,8 @@ const projects = [
 			},
 		],
 		image: metaverse,
-		source_code_link: "https://github.com/",
+		source_code_link: "https://github.com/bbabines/cm-alt-design",
+		live_demo_link: "https://brads-metaverse.netlify.app/",
 	},
 	{
 		name: "Kubera Link",
@@ -317,7 +319,7 @@ const projects = [
 			},
 		],
 		image: kubera,
-		source_code_link: "https://github.com/",
+		source_code_link: "https://github.com/KuberaLink/KuberaLink",
 	},
 	{
 		name: "Marble Madness",
@@ -338,7 +340,8 @@ const projects = [
 			},
 		],
 		image: marble,
-		source_code_link: "https://github.com/",
+		source_code_link: "https://github.com/bbabines/marble-madness",
+		live_demo_link: "https://marble-madness.netlify.app/",
 	},
 
 	{
@@ -359,7 +362,8 @@ const projects = [
 			},
 		],
 		image: spline,
-		source_code_link: "https://github.com/",
+		source_code_link: "https://github.com/bbabines/spline-site",
+		live_demo_link: "",
 	},
 
 	{
@@ -377,7 +381,8 @@ const projects = [
 			},
 		],
 		image: jake,
-		source_code_link: "https://github.com/",
+		source_code_link: "https://github.com/bbabines/basic-responsive-site",
+		live_demo_link: "https://bbabines.github.io/basic-responsive-site/",
 	},
 ];
 
