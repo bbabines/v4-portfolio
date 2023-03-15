@@ -238,15 +238,15 @@ const projects = [
 			"A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
 		tags: [
 			{
-				name: "nextjs",
+				name: "react",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "supabase",
+				name: "material-ui",
 				color: "green-text-gradient",
 			},
 			{
-				name: "css",
+				name: "next.js",
 				color: "pink-text-gradient",
 			},
 		],
@@ -263,7 +263,7 @@ const projects = [
 				color: "blue-text-gradient",
 			},
 			{
-				name: "styledcomponents",
+				name: "styled-components",
 				color: "green-text-gradient",
 			},
 			{
@@ -278,18 +278,18 @@ const projects = [
 	{
 		name: "Metaversus",
 		description:
-			"A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+			"A modern UI created from a professionally designed figma mockup using Next.js, Framer Motion, and Tailwind CSS",
 		tags: [
 			{
-				name: "nextjs",
+				name: "react",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "supabase",
+				name: "tailwind",
 				color: "green-text-gradient",
 			},
 			{
-				name: "css",
+				name: "next.js",
 				color: "pink-text-gradient",
 			},
 		],
@@ -302,15 +302,15 @@ const projects = [
 			"A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
 		tags: [
 			{
-				name: "nextjs",
+				name: "react",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "supabase",
+				name: "tailwind",
 				color: "green-text-gradient",
 			},
 			{
-				name: "css",
+				name: "next.js",
 				color: "pink-text-gradient",
 			},
 		],
@@ -323,15 +323,15 @@ const projects = [
 			"A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
 		tags: [
 			{
-				name: "nextjs",
+				name: "three.js",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "supabase",
+				name: "react-three-fiber",
 				color: "green-text-gradient",
 			},
 			{
-				name: "css",
+				name: "vite",
 				color: "pink-text-gradient",
 			},
 		],
@@ -345,15 +345,15 @@ const projects = [
 			"A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
 		tags: [
 			{
-				name: "nextjs",
+				name: "react",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "supabase",
+				name: "three.js",
 				color: "green-text-gradient",
 			},
 			{
-				name: "css",
+				name: "spline",
 				color: "pink-text-gradient",
 			},
 		],
@@ -367,11 +367,11 @@ const projects = [
 			"A fully responsive, multi-page website created with vanilla HTML and CSS to showcase the fundamentals",
 		tags: [
 			{
-				name: "css",
+				name: "html",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "html",
+				name: "css",
 				color: "green-text-gradient",
 			},
 		],
