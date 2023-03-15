@@ -42,6 +42,12 @@ import firebase from "./tech/firebase.webp";
 import freelance from "./company/freelance.jpg";
 import chemsafe from "./company/chemsafe.png";
 import ohiohealth from "./company/ohiohealth.png";
+import marble from "./marble.png";
+import brads from "./brads.png";
+import metaverse from "./metaverse.png";
+import kubera from "./kubera.png";
+import jake from "./jake.png";
+import spline from "./spline.png";
 
 export {
 	logo,
@@ -84,4 +90,10 @@ export {
 	freelance,
 	chemsafe,
 	ohiohealth,
+	marble,
+	metaverse,
+	brads,
+	kubera,
+	jake,
+	spline,
 };

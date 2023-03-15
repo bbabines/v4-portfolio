@@ -12,11 +12,6 @@ import {
 	mongodb,
 	git,
 	figma,
-	meta,
-	tesla,
-	shopify,
-	carrent,
-	jobit,
 	tripguide,
 	threejs,
 	vscode,
@@ -31,6 +26,12 @@ import {
 	freelance,
 	chemsafe,
 	ohiohealth,
+	marble,
+	metaverse,
+	brads,
+	kubera,
+	jake,
+	spline,
 } from "../assets";
 
 export const navLinks = [
@@ -235,7 +236,7 @@ const projects = [
 	{
 		name: "Pro Management",
 		description:
-			"A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+			"A full-stack MERN (MongoDB, Express, React, Node) dashboard app with authentication, pagination, sorting, filtering, and more!",
 		tags: [
 			{
 				name: "react",
@@ -246,7 +247,7 @@ const projects = [
 				color: "green-text-gradient",
 			},
 			{
-				name: "next.js",
+				name: "typescript",
 				color: "pink-text-gradient",
 			},
 		],
@@ -254,7 +255,7 @@ const projects = [
 		source_code_link: "https://github.com/",
 	},
 	{
-		name: "Brad'z Clothing",
+		name: "Ikon Clothing",
 		description:
 			"An e-commerce clothing store made with React that has user authentication and database support via firebase.",
 		tags: [
@@ -271,7 +272,7 @@ const projects = [
 				color: "pink-text-gradient",
 			},
 		],
-		image: carrent,
+		image: brads,
 		source_code_link: "https://github.com/",
 	},
 
@@ -293,13 +294,14 @@ const projects = [
 				color: "pink-text-gradient",
 			},
 		],
-		image: tripguide,
+		image: metaverse,
 		source_code_link: "https://github.com/",
 	},
 	{
 		name: "Kubera Link",
 		description:
-			"A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+			"A large freelance project for a startup to build an MVP for their crypto call channel SPA. The project is currently on-going.",
+
 		tags: [
 			{
 				name: "react",
@@ -314,13 +316,13 @@ const projects = [
 				color: "pink-text-gradient",
 			},
 		],
-		image: tripguide,
+		image: kubera,
 		source_code_link: "https://github.com/",
 	},
 	{
-		name: "Three.js Game",
+		name: "Marble Madness",
 		description:
-			"A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+			"This is a mini game that put my three.js skills to the test! It is a timed race in which you avoid obstacles to make it to the end.",
 		tags: [
 			{
 				name: "three.js",
@@ -335,14 +337,13 @@ const projects = [
 				color: "pink-text-gradient",
 			},
 		],
-		image: tripguide,
+		image: marble,
 		source_code_link: "https://github.com/",
 	},
 
 	{
-		name: "3D Spline Site",
-		description:
-			"A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+		name: "3D Dashboard",
+		description: "A 3D splash page made with React, three.js, and spline.",
 		tags: [
 			{
 				name: "react",
@@ -357,7 +358,7 @@ const projects = [
 				color: "pink-text-gradient",
 			},
 		],
-		image: tripguide,
+		image: spline,
 		source_code_link: "https://github.com/",
 	},
 
@@ -375,7 +376,7 @@ const projects = [
 				color: "green-text-gradient",
 			},
 		],
-		image: jobit,
+		image: jake,
 		source_code_link: "https://github.com/",
 	},
 ];
