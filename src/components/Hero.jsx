@@ -20,7 +20,7 @@ const Hero = () => {
 					</h1>
 					<p className={`${styles.heroSubText}  text-white-100`}>
 						I build user interfaces, web applications, and websites with React.
-						<span className="sm:hidden">and Three.js. </span>
+						and Three.js.
 					</p>
 				</div>
 			</div>

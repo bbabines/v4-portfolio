@@ -23,7 +23,6 @@ import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
@@ -31,6 +30,18 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 // Demo icon provided by flaticon.com <a href="https://www.flaticon.com/free-icons/demo" title="demo icons">Demo icons created by Freepik - Flaticon</a>
 import demo from "./demo.png";
+import vscode from "./tech/vscode.png";
+import framermotion from "./tech/framermotion.webp";
+import bootstrap from "./tech/bootstrap.webp";
+import gitHub from "./tech/gitHub.webp";
+import sass from "./tech/sass.webp";
+import styledcomponents from "./tech/styledcomponents.webp";
+import next from "./tech/next.webp";
+import vite from "./tech/vite.webp";
+import firebase from "./tech/firebase.webp";
+import freelance from "./company/freelance.jpg";
+import chemsafe from "./company/chemsafe.png";
+import ohiohealth from "./company/ohiohealth.png";
 
 export {
 	logo,
@@ -56,10 +67,21 @@ export {
 	threejs,
 	meta,
 	shopify,
-	starbucks,
 	tesla,
 	carrent,
 	jobit,
 	tripguide,
 	demo,
+	vscode,
+	framermotion,
+	bootstrap,
+	gitHub,
+	sass,
+	styledcomponents,
+	next,
+	vite,
+	firebase,
+	freelance,
+	chemsafe,
+	ohiohealth,
 };

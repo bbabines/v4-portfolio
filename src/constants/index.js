@@ -8,21 +8,29 @@ import {
 	html,
 	css,
 	reactjs,
-	redux,
 	tailwind,
-	nodejs,
 	mongodb,
 	git,
 	figma,
-	docker,
 	meta,
-	starbucks,
 	tesla,
 	shopify,
 	carrent,
 	jobit,
 	tripguide,
 	threejs,
+	vscode,
+	framermotion,
+	bootstrap,
+	gitHub,
+	sass,
+	styledcomponents,
+	next,
+	firebase,
+	vite,
+	freelance,
+	chemsafe,
+	ohiohealth,
 } from "../assets";
 
 export const navLinks = [
@@ -42,129 +50,156 @@ export const navLinks = [
 
 const services = [
 	{
-		title: "Web Developer",
-		icon: web,
-	},
-	{
-		title: "React Native Developer",
+		title: "UI Developer",
 		icon: mobile,
 	},
 	{
-		title: "Backend Developer",
+		title: "Front-End Engineer",
 		icon: backend,
 	},
 	{
-		title: "Content Creator",
+		title: "Web Developer",
+		icon: web,
+	},
+
+	{
+		title: "Creative Developer",
 		icon: creator,
 	},
 ];
 
 const technologies = [
 	{
-		name: "HTML 5",
-		icon: html,
-	},
-	{
-		name: "CSS 3",
-		icon: css,
-	},
-	{
-		name: "JavaScript",
-		icon: javascript,
-	},
-	{
-		name: "TypeScript",
-		icon: typescript,
-	},
-	{
 		name: "React JS",
 		icon: reactjs,
 	},
 	{
-		name: "Redux Toolkit",
-		icon: redux,
+		name: "next.js",
+		icon: next,
 	},
 	{
-		name: "Tailwind CSS",
-		icon: tailwind,
-	},
-	{
-		name: "Node JS",
-		icon: nodejs,
-	},
-	{
-		name: "MongoDB",
-		icon: mongodb,
+		name: "framer motion",
+		icon: framermotion,
 	},
 	{
 		name: "Three JS",
 		icon: threejs,
 	},
 	{
-		name: "git",
-		icon: git,
+		name: "JavaScript",
+		icon: javascript,
 	},
+	{
+		name: "CSS 3",
+		icon: css,
+	},
+	{
+		name: "HTML 5",
+		icon: html,
+	},
+
+	{
+		name: "TypeScript",
+		icon: typescript,
+	},
+	// {
+	// 	name: "MongoDB",
+	// 	icon: mongodb,
+	// },
+
+	{
+		name: "Tailwind CSS",
+		icon: tailwind,
+	},
+	{
+		name: "bootstrap",
+		icon: bootstrap,
+	},
+	{
+		name: "sass",
+		icon: sass,
+	},
+	// {
+	// 	name: "styled components",
+	// 	icon: styledcomponents,
+	// },
 	{
 		name: "figma",
 		icon: figma,
 	},
 	{
-		name: "docker",
-		icon: docker,
+		name: "vscode",
+		icon: vscode,
 	},
+
+	// {
+	// 	name: "git",
+	// 	icon: git,
+	// },
+
+	// {
+	// 	name: "github",
+	// 	icon: gitHub,
+	// },
+
+	// {
+	// 	name: "vite",
+	// 	icon: vite,
+	// },
+	// {
+	// 	name: "firebase",
+	// 	icon: firebase,
+	// },
 ];
 
 const experiences = [
 	{
 		title: "React.js Developer",
-		company_name: "Starbucks",
-		icon: starbucks,
+		company_name: "Freelance Consultant",
+		icon: freelance,
 		iconBg: "#383E56",
-		date: "March 2020 - April 2021",
+		date: "December 2022 - Present",
 		points: [
 			"Developing and maintaining web applications using React.js and other related technologies.",
 			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
 			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
 		],
 	},
 	{
-		title: "React Native Developer",
-		company_name: "Tesla",
-		icon: tesla,
+		title: "Tech Lead / Business Analyst",
+		company_name: "Chemical Safety Software",
+		icon: chemsafe,
 		iconBg: "#E6DEDD",
-		date: "Jan 2021 - Feb 2022",
+		date: "August 2022 - Present",
 		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
+			"Implement Chemical Safety's environmental health and safety (EH&S) software into client's business practices.",
+			"Work alongside external and internal developers, project managers, and ancillary staff.",
+			"Work with SQL databases, stored procedures, single sign on, and various APIs.",
 		],
 	},
 	{
-		title: "Web Developer",
-		company_name: "Shopify",
-		icon: shopify,
+		title: "Critical Care Dietitian",
+		company_name: "OhioHealth",
+		icon: ohiohealth,
 		iconBg: "#383E56",
-		date: "Jan 2022 - Jan 2023",
+		date: "January 2015 - August 2022",
 		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
+			"Helped innovate OhioHealth's first virtual nutrition support team.",
+			"Cared for critically ill patients along side doctors, pharmacists, nurse practitioners, and nurses.",
+			"Took part in a rotation where total parenteral nutrition (TPN) was managed virtually for six hospitals in Columbus, Ohio.",
+			"Covering a MICU, SICU, and other hospital units within the OhioHealth system onsite after TPN rotation.",
 		],
 	},
 	{
-		title: "Full stack Developer",
-		company_name: "Meta",
-		icon: meta,
+		title: "Registered Dietitian",
+		company_name: "OhioHealth",
+		icon: ohiohealth,
 		iconBg: "#E6DEDD",
-		date: "Jan 2023 - Present",
+		date: "December 2013 - January 2015",
 		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
+			"Started and lead malnutrition education, training, and billing efforts within the OhioHealth system.",
+			"Completed nutrition assessments, monitored nutrition care plans, and interacted with the interdisciplinary team members in care rounds.",
+			"Provided medical nutrition therapy (MNT) to promote health and provide nutrition care services in the treatment of diseases on various units.",
 		],
 	},
 ];
