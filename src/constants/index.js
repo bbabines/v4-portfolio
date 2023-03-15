@@ -252,7 +252,8 @@ const projects = [
 			},
 		],
 		image: pro,
-		source_code_link: "https://github.com/",
+		source_code_link: "https://github.com/bbabines/pro-dashboard",
+		live_demo_link: "https://ikon-clothing.netlify.app/",
 	},
 	{
 		name: "Ikon Clothing",
@@ -320,6 +321,7 @@ const projects = [
 		],
 		image: kubera,
 		source_code_link: "https://github.com/KuberaLink/KuberaLink",
+		live_demo_link: "https://kubera-splash-page.netlify.app/",
 	},
 	{
 		name: "Marble Madness",
@@ -346,7 +348,8 @@ const projects = [
 
 	{
 		name: "3D Dashboard",
-		description: "A 3D splash page made with React, three.js, and spline.",
+		description:
+			"A 3D splash page made with React, three.js, and spline. A unique glassmorphism look was styled to give a futuristic feel.",
 		tags: [
 			{
 				name: "react",
@@ -363,7 +366,7 @@ const projects = [
 		],
 		image: spline,
 		source_code_link: "https://github.com/bbabines/spline-site",
-		live_demo_link: "",
+		live_demo_link: "https://r1ul0z.csb.app/",
 	},
 
 	{
