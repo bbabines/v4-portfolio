@@ -44,7 +44,7 @@ const About = () => {
 				variants={fadeIn("", "", 0.1, 1)}
 				className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
 			>
-				<p>
+				<>
 					I'm a skilled software developer with experience in{" "}
 					<span className="text-[#5ed3f3]">React</span> and{" "}
 					<span className="text-white">Three.js</span> who enjoys building
@@ -53,9 +53,9 @@ const About = () => {
 					and libraries to fit my client's needs. I collaborate closely with
 					peers and clients alike to create efficient, scalable, and
 					user-friendly solutions that solve real-world problems.
-				</p>
+				</>
 				<br />
-				<p>Let's work together to bring your ideas to life!</p>
+				<>Let's work together to bring your ideas to life!</>
 			</motion.p>
 			<div className="mt-20 flex flex-wrap gap-10">
 				{services.map((service, index) => (
