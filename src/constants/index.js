@@ -26,12 +26,12 @@ import {
 	chemsafe,
 	ohiohealth,
 	marble,
-	metaverse,
 	brads,
 	kubera,
 	jake,
 	spline,
 	pro,
+	cohering,
 } from "../assets";
 
 export const navLinks = [
@@ -279,10 +279,14 @@ const projects = [
 	},
 
 	{
-		name: "Metaversus",
+		name: "Cohering Minds",
 		description:
-			"A modern UI created from a professionally designed figma mockup using Next.js, Framer Motion, and Tailwind CSS",
+			"A modern UI build for a startup trying to acquire pre-seed funding. The site was built using Next.js, Framer Motion, and Tailwind CSS",
 		tags: [
+			{
+				name: "FREELANCE",
+				color: "orange-text-gradient",
+			},
 			{
 				name: "react",
 				color: "blue-text-gradient",
@@ -296,9 +300,9 @@ const projects = [
 				color: "pink-text-gradient",
 			},
 		],
-		image: metaverse,
+		image: cohering,
 		source_code_link: "https://github.com/bbabines/cm-alt-design",
-		live_demo_link: "https://brads-metaverse.netlify.app/",
+		live_demo_link: "https://cohering-minds.netlify.app/",
 	},
 	{
 		name: "Kubera Link",
@@ -376,7 +380,7 @@ const projects = [
 	{
 		name: "Jake & Elwood",
 		description:
-			"A fully responsive, multi-page website created with vanilla HTML and CSS to showcase the fundamentals",
+			"A fully responsive, multi-page website created with vanilla HTML and CSS with a little Javascript to showcase the fundamentals",
 		tags: [
 			{
 				name: "html",

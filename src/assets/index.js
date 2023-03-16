@@ -44,11 +44,11 @@ import chemsafe from "./company/chemsafe.png";
 import ohiohealth from "./company/ohiohealth.png";
 import marble from "./marble.png";
 import brads from "./brads.png";
-import metaverse from "./metaverse.png";
 import kubera from "./kubera.png";
 import jake from "./jake.png";
 import spline from "./spline.png";
 import pro from "./pro.png";
+import cohering from "./cohering.png";
 
 export {
 	logo,
@@ -92,10 +92,10 @@ export {
 	chemsafe,
 	ohiohealth,
 	marble,
-	metaverse,
 	brads,
 	kubera,
 	jake,
 	spline,
 	pro,
+	cohering,
 };
