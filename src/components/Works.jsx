@@ -19,8 +19,9 @@ const ProjectCard = ({
 	live_demo_link,
 }) => {
 	return (
-		<motion.div
-		// Variants currently breaking mobile view from rendering.
+		<div
+
+		// Variants currently breaking mobile view from rendering so motion div removed.
 		// variants={fadeIn("up", "spring", index * 0.5, 0.75)}
 		>
 			<Tilt
@@ -67,7 +68,7 @@ const ProjectCard = ({
 					))}
 				</div>
 			</Tilt>
-		</motion.div>
+		</div>
 	);
 };
 
