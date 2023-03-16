@@ -19,10 +19,13 @@ const ProjectCard = ({
 	live_demo_link,
 }) => {
 	return (
-		<motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+		<motion.div
+		// Variants currently breaking mobile view from rendering.
+		// variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+		>
 			<Tilt
 				options={{ max: 20, scale: 1, speed: 250 }}
-				className="bg-tertiary p-5 rounded-2xl sm:w-[320px] w-full"
+				className="bg-tertiary p-5 rounded-2xl sm:w-[320px]  w-full"
 			>
 				<div className="relative h-[230px] w-full">
 					<img
@@ -31,7 +34,6 @@ const ProjectCard = ({
 						className="w-full h-full object-cover rounded-2xl"
 					/>
 					<div className="absolute inset-0 flex justify-end mt-3 card-img_hover">
-						{/* Change to Live Site URL */}
 						<div
 							onClick={() => window.open(live_demo_link, "blank")}
 							className="mr-2 black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:border-2 border-green-300 "
