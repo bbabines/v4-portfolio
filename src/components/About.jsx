@@ -55,6 +55,7 @@ const About = () => {
 					user-friendly solutions that solve real-world problems.
 				</>
 				<br />
+				<br />
 				<>Let's work together to bring your ideas to life!</>
 			</motion.p>
 			<div className="mt-20 flex flex-wrap gap-10">

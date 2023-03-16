@@ -22,7 +22,7 @@ const Computers = ({ isMobile }) => {
 			<primitive
 				object={computer.scene}
 				scale={isMobile ? 0.7 : 0.75}
-				position={isMobile ? [0, -3, 2.2] : [0, -3.25, -1.5]}
+				position={isMobile ? [0, -3, -1.5] : [0, -3.25, -1.5]}
 				rotation={[-0.01, -0.2, -0.1]}
 			/>
 		</mesh>
@@ -34,7 +34,7 @@ const ComputersCanvas = () => {
 
 	useEffect(() => {
 		// Event listener to handle changes to screen size
-		const mediaQuery = window.matchMedia("max-width: 500px");
+		const mediaQuery = window.matchMedia("(max-width: 500px)");
 
 		setIsMobile(mediaQuery.matches);
 
@@ -52,7 +52,7 @@ const ComputersCanvas = () => {
 
 	return (
 		<Canvas
-			// frameloop="demand"
+			frameloop="demand"
 			shadows
 			camera={{ position: [20, 3, 5], fov: 25 }}
 			gl={{ preserveDrawingBuffer: true }}
@@ -66,7 +66,7 @@ const ComputersCanvas = () => {
 				<Computers isMobile={isMobile} />
 			</Suspense>
 
-			<Preload all />
+			{/* <Preload all /> */}
 		</Canvas>
 	);
 };
