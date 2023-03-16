@@ -20,7 +20,9 @@ const App = () => {
 					<Hero />
 				</div>
 				<About />
-				<Tech />
+				<div className="max-sm:hidden">
+					<Tech />
+				</div>
 				<Works />
 				<Experience />
 				{/* <Feedbacks /> */}
