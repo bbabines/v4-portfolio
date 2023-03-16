@@ -188,7 +188,7 @@ const experiences = [
 			"Helped innovate OhioHealth's first virtual nutrition support team.",
 			"Cared for critically ill patients along side doctors, pharmacists, nurse practitioners, and nurses.",
 			"Took part in a rotation where total parenteral nutrition (TPN) was managed virtually for six hospitals in Columbus, Ohio.",
-			"Covering a MICU, SICU, and other hospital units within the OhioHealth system onsite after TPN rotation.",
+			"Covered a MICU, SICU, and other hospital units within the OhioHealth system onsite after TPN rotation.",
 		],
 	},
 	{
