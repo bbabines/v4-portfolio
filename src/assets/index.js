@@ -49,6 +49,7 @@ import jake from "./jake.png";
 import spline from "./spline.png";
 import pro from "./pro.png";
 import cohering from "./cohering.png";
+import dashboard from "./dashboard.png";
 
 export {
 	logo,
@@ -98,4 +99,5 @@ export {
 	spline,
 	pro,
 	cohering,
+	dashboard,
 };

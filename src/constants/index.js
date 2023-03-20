@@ -32,6 +32,7 @@ import {
 	spline,
 	pro,
 	cohering,
+	dashboard,
 } from "../assets";
 
 export const navLinks = [
@@ -277,6 +278,28 @@ const projects = [
 		source_code_link: "https://github.com/bbabines/brads-clothing",
 		live_demo_link: "https://ikon-clothing.netlify.app/",
 	},
+	{
+		name: "Pro Dashboard",
+		description:
+			"The ultimate dashboard! It consists of Light and Dark Mode, 4 different Charts, 3 different Data Table Pages, FAQ Page, Form Page, and Calendar Integration",
+		tags: [
+			{
+				name: "react",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "material-ui",
+				color: "green-text-gradient",
+			},
+			{
+				name: "nivo-charts",
+				color: "pink-text-gradient",
+			},
+		],
+		image: dashboard,
+		source_code_link: "https://github.com/bbabines/pro-dashboard",
+		live_demo_link: "https://pro-admin-dashboard.netlify.app/",
+	},
 
 	{
 		name: "Cohering Minds",
@@ -354,28 +377,28 @@ const projects = [
 		live_demo_link: "https://marble-madness.netlify.app/",
 	},
 
-	{
-		name: "3D Dashboard",
-		description:
-			"A 3D splash page made with React, three.js, and spline. A unique glassmorphism look was styled to give a futuristic feel.",
-		tags: [
-			{
-				name: "react",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "three.js",
-				color: "green-text-gradient",
-			},
-			{
-				name: "spline",
-				color: "pink-text-gradient",
-			},
-		],
-		image: spline,
-		source_code_link: "https://github.com/bbabines/spline-site",
-		live_demo_link: "https://r1ul0z.csb.app/",
-	},
+	// {
+	// 	name: "3D Dashboard",
+	// 	description:
+	// 		"A 3D splash page made with React, three.js, and spline. A unique glassmorphism look was styled to give a futuristic feel.",
+	// 	tags: [
+	// 		{
+	// 			name: "react",
+	// 			color: "blue-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "three.js",
+	// 			color: "green-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "spline",
+	// 			color: "pink-text-gradient",
+	// 		},
+	// 	],
+	// 	image: spline,
+	// 	source_code_link: "https://github.com/bbabines/spline-site",
+	// 	live_demo_link: "https://r1ul0z.csb.app/",
+	// },
 
 	{
 		name: "Jake & Elwood",
