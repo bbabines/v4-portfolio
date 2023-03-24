@@ -352,7 +352,7 @@ const projects = [
 		],
 		image: kubera,
 		source_code_link: "https://github.com/KuberaLink/KuberaLink",
-		live_demo_link: "https://kubera-splash-page.netlify.app/",
+		live_demo_link: "http://www.kuberalink.com/",
 	},
 	{
 		name: "Marble Madness",
