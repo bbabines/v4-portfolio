@@ -38,7 +38,7 @@
 
 ## About The Project
 
-I wanted to upgrade my portfolio (yet again) utilizing Three.js/React Three Fiber. I have a love and passion for interactive and immersive content that it's easy to get carried away. However, I think I stuck a good balance between functionality and interactivity with this version.
+I wanted to upgrade my portfolio (yet again) utilizing Three.js/React Three Fiber. I have a love and passion for interactive and immersive content that it's easy to get carried away with. However, I think I stuck a good balance between functionality and interactivity with this version.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
