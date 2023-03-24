@@ -8,7 +8,7 @@
 <h3 align="center">Brad's Portfolio v4.0</h3>
 
   <p align="center">
-    This is the latest version of my portfolio that has 3D elements and more interactivity! It was build with React Three Fiber, Three.js, React, and Vite.
+    This is the latest version of my portfolio that has 3D elements and improved interactivity! It was build with React Three Fiber, Three.js, React, and Vite.
     <br />
   </p>
 </div>
@@ -38,13 +38,13 @@
 
 ## About The Project
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+I wanted to upgrade my portfolio (yet again) utilizing Three.js/React Three Fiber. I have a love and passion for interactive and immersive content that it's easy to get carried away. However, I think I stuck a good balance between functionality and interactivity with this version.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
-- [![React][react.js]][react-url]
+[![React][react.js]][react-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
