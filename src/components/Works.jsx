@@ -20,6 +20,7 @@ const ProjectCard = ({
 }) => {
 	return (
 		<div
+
 		// Variants currently breaking mobile view from rendering so motion div removed.
 
 		// variants={fadeIn("up", "spring", index * 0.5, 0.75)}
@@ -34,17 +35,17 @@ const ProjectCard = ({
 						alt={name}
 						className="w-full h-full object-cover rounded-2xl"
 					/>
-					<div className="absolute inset-0 flex justify-end mt-3 card-img_hover">
+					<div className="absolute inset-0 flex justify-end mt-3 card-img_hover ">
 						<div
 							onClick={() => window.open(live_demo_link, "blank")}
-							className="mr-2 black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:border-2 border-green-300 "
+							className="mr-2 black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer border-2 border-green-300 hover:border-purple-400"
 						>
 							<img src={demo} alt="demo" className=" h-[65%] object-contain" />
 						</div>
 
 						<div
 							onClick={() => window.open(source_code_link, "blank")}
-							className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:border-2 border-green-300"
+							className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer border-2 border-green-300 hover:border-purple-400"
 						>
 							<img
 								src={github}
@@ -56,7 +57,12 @@ const ProjectCard = ({
 				</div>
 
 				<div className="mt-5 ">
-					<h3 className="text-white font-bold text-[24px]">{name}</h3>
+					<h3
+						className="text-white font-bold text-[24px] cursor-pointer hover:text-purple-400"
+						onClick={() => window.open(live_demo_link, "blank")}
+					>
+						{name}
+					</h3>
 					<p className="mt-2 text-secondary text-[14px]">{description}</p>
 				</div>
 
