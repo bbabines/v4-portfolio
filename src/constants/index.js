@@ -160,7 +160,7 @@ const experiences = [
 		company_name: "Freelance Consultant",
 		icon: freelance,
 		iconBg: "#383E56",
-		date: "December 2022 - Present",
+		date: "August 2022 - Present",
 		points: [
 			"Developing and maintaining web applications using React.js and other related technologies.",
 			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -168,7 +168,7 @@ const experiences = [
 		],
 	},
 	{
-		title: "Tech Lead / Business Analyst",
+		title: "Business Analyst",
 		company_name: "Chemical Safety Software",
 		icon: chemsafe,
 		iconBg: "#E6DEDD",
