@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import DeskScene from "./canvas/DeskScene";
 
 const Hero = () => {
 	return (
@@ -25,6 +26,7 @@ const Hero = () => {
 				</div>
 			</div>
 			{/* <ComputersCanvas /> */}
+			{/* <DeskScene /> */}
 			<div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center xl:hidden">
 				<a href="#about">
 					<div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify center center items-start p-2">
