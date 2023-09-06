@@ -27,7 +27,7 @@ const ProjectCard = ({
 		>
 			<Tilt
 				options={{ max: 20, scale: 1, speed: 250 }}
-				className="bg-tertiary p-5 rounded-2xl sm:w-[320px]  w-full"
+				className="bg-primary p-5 rounded-2xl sm:w-[320px]  w-full"
 			>
 				<div className="relative h-[230px] w-full">
 					<img
@@ -45,7 +45,7 @@ const ProjectCard = ({
 
 						<div
 							onClick={() => window.open(source_code_link, "blank")}
-							className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer border-2 border-green-300 hover:border-purple-400"
+							className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer border-2 border-green-300 hover:border-[#faac18]"
 						>
 							<img
 								src={github}
@@ -58,7 +58,7 @@ const ProjectCard = ({
 
 				<div className="mt-5 ">
 					<h3
-						className="text-white font-bold text-[24px] cursor-pointer hover:text-purple-400"
+						className="text-white font-bold text-[24px] cursor-pointer hover:text-[#faac18]"
 						onClick={() => window.open(live_demo_link, "blank")}
 					>
 						{name}

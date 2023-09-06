@@ -160,7 +160,7 @@ const experiences = [
 		company_name: "Freelance Consultant",
 		icon: freelance,
 		iconBg: "#383E56",
-		date: "August 2022 - Present",
+		date: "March 2021 - Present",
 		points: [
 			"Developing and maintaining web applications using React.js and other related technologies.",
 			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -172,7 +172,7 @@ const experiences = [
 		company_name: "Chemical Safety Software",
 		icon: chemsafe,
 		iconBg: "#E6DEDD",
-		date: "August 2022 - Present",
+		date: "August 2022 - August 2023",
 		points: [
 			"Implement Chemical Safety's environmental health and safety (EH&S) software into client's business practices.",
 			"Work alongside external and internal developers, project managers, and ancillary staff.",
