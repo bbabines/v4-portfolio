@@ -279,7 +279,7 @@ const projects = [
 		live_demo_link: "https://ikon-clothing.netlify.app/",
 	},
 	{
-		name: "Pro Dashboard",
+		name: "Admin Dashboard",
 		description:
 			"The ultimate dashboard! It consists of Light and Dark Mode, 4 different Charts, 3 different Data Table Pages, FAQ Page, Form Page, and Calendar Integration",
 		tags: [
@@ -327,33 +327,33 @@ const projects = [
 		source_code_link: "https://github.com/bbabines/cm-alt-design",
 		live_demo_link: "https://cohering-minds.netlify.app/",
 	},
-	{
-		name: "Kubera Link",
-		description:
-			"A large freelance project for a startup to build an MVP for their crypto call channel SPA. The project is currently on-going.",
+	// {
+	// 	name: "Kubera Link",
+	// 	description:
+	// 		"A large freelance project for a startup to build an MVP for their crypto call channel SPA. The project is currently on-going.",
 
-		tags: [
-			{
-				name: "FREELANCE",
-				color: "orange-text-gradient",
-			},
-			{
-				name: "react",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "tailwind",
-				color: "green-text-gradient",
-			},
-			{
-				name: "next.js",
-				color: "pink-text-gradient",
-			},
-		],
-		image: kubera,
-		source_code_link: "https://github.com/KuberaLink/KuberaLink",
-		live_demo_link: "http://www.kuberalink.com/",
-	},
+	// 	tags: [
+	// 		{
+	// 			name: "FREELANCE",
+	// 			color: "orange-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "react",
+	// 			color: "blue-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "tailwind",
+	// 			color: "green-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "next.js",
+	// 			color: "pink-text-gradient",
+	// 		},
+	// 	],
+	// 	image: kubera,
+	// 	source_code_link: "https://github.com/KuberaLink/KuberaLink",
+	// 	live_demo_link: "http://www.kuberalink.com/",
+	// },
 	{
 		name: "Marble Madness",
 		description:
