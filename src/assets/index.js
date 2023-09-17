@@ -50,6 +50,7 @@ import spline from "./spline.png";
 import pro from "./pro.png";
 import cohering from "./cohering.png";
 import dashboard from "./dashboard.png";
+import rpg from "./rpg.png";
 
 export {
 	logo,
@@ -100,4 +101,5 @@ export {
 	pro,
 	cohering,
 	dashboard,
+	rpg,
 };

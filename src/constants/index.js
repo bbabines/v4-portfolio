@@ -33,6 +33,7 @@ import {
 	pro,
 	cohering,
 	dashboard,
+	rpg,
 } from "../assets";
 
 export const navLinks = [
@@ -300,6 +301,50 @@ const projects = [
 		source_code_link: "https://github.com/bbabines/pro-dashboard",
 		live_demo_link: "https://pro-admin-dashboard.netlify.app/",
 	},
+	{
+		name: "Immersive Portfolio",
+		description:
+			"Step into a new dimension of interactivity with a 3D, immersive version of my portfolio while controller an avatar in third person view.",
+		tags: [
+			{
+				name: "three.js",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "react-three-fiber",
+				color: "green-text-gradient",
+			},
+			{
+				name: "next.js",
+				color: "pink-text-gradient",
+			},
+		],
+		image: rpg,
+		source_code_link: "https://github.com/bbabines/immersive-portfolio",
+		live_demo_link: "https://immersive-portfolio.netlify.app/",
+	},
+	{
+		name: "Marble Madness",
+		description:
+			"This is a mini game that put my three.js skills to the test! It is a timed race in which you avoid obstacles to make it to the end.",
+		tags: [
+			{
+				name: "three.js",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "react-three-fiber",
+				color: "green-text-gradient",
+			},
+			{
+				name: "vite",
+				color: "pink-text-gradient",
+			},
+		],
+		image: marble,
+		source_code_link: "https://github.com/bbabines/marble-madness",
+		live_demo_link: "https://marble-madness.netlify.app/",
+	},
 
 	{
 		name: "Cohering Minds",
@@ -354,28 +399,6 @@ const projects = [
 	// 	source_code_link: "https://github.com/KuberaLink/KuberaLink",
 	// 	live_demo_link: "http://www.kuberalink.com/",
 	// },
-	{
-		name: "Marble Madness",
-		description:
-			"This is a mini game that put my three.js skills to the test! It is a timed race in which you avoid obstacles to make it to the end.",
-		tags: [
-			{
-				name: "three.js",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "react-three-fiber",
-				color: "green-text-gradient",
-			},
-			{
-				name: "vite",
-				color: "pink-text-gradient",
-			},
-		],
-		image: marble,
-		source_code_link: "https://github.com/bbabines/marble-madness",
-		live_demo_link: "https://marble-madness.netlify.app/",
-	},
 
 	// {
 	// 	name: "3D Dashboard",
